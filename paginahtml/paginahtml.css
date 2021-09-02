@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #fff;
+}
+
+body {
+	background-image: linear-gradient(to right, #000, #333);
+	text-align: center;
+}
+
+#menu-hor {
+	background-color: #000000;
+}
+
+#menu-hor ul {
+	background-color: #000000;
+	max-width: 100%;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu-hor ul li {
+	display: inline;
+}
+
+#menu-hor ul li a {
+	text-decoration: none;
+	font-size: 25px;
+	color: #ffffff;
+	display: inline-block;
+	padding: 20px;
+	transition: background .6s;
+}
+
+#menu-hor ul li a:hover {
+	padding: 20px;
+	background-color: #8c52ff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#menu-hor ul li:last-child a {
+	float: right;
+	background-color: #8c52ff;
+}
+
+#menu-hor ul li:first-child a {
+	float: left;
+	background-color: #8c52ff;
+}
+
+#html {
+	margin-top: 15px;
+}
+
+#html p {
+	font-size: 20px;
+	margin-top: 15px;
+	max-width: 900px;
+	text-align: justify;
+}
+
+#html p abbr {
+	text-decoration: none;
+}
+
+#historia h1 {
+	margin-top: 15px;
+}
+
+#historia p {
+	font-size: 20px;
+	margin-top: 15px;
+	max-width: 900px;
+	text-align: justify;
+}
+
+#historia p abbr {
+	text-decoration: none;
+}
+
+#historia img {
+	margin-top: 15px;
+}
+
+#roxo {
+	background-color:  #8c52ff;
+}
+
+#redir {
+	margin-top: 15px;
+}
+
+#redir button {
+	background-color: #8c52ff;
+	border: none;
+	border-radius: 5px;
+	width: 110px;
+	height: 65px;
+	cursor:  pointer;
+	transition: 0.45s;
+}
+
+#redir button a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	transition: 0.45s;
+}
+
+#redir button:hover {
+	background-color: #fff;
+}
+
+#redir button a:hover {
+	color: #000;
+}

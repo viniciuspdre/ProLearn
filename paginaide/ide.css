@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap'); 
+* { 
+ margin: 0 auto; 
+ padding: 0; 
+ box-sizing: border-box; 
+ font-family: 'Yanone Kaffeesatz', sans-serif; 
+} 
+body { 
+ background-image: linear-gradient(to right, #000, #333); 
+ color: #ffffff;
+ font-size: 20px;
+ text-align: center;
+} 
+ 
+#menu-hor { 
+ background-color: #000000; 
+} 
+ 
+#menu-hor ul { 
+ background-color: #000000; 
+ max-width: 100%; 
+ padding: 0px; 
+ list-style: none; 
+
+} 
+ 
+#menu-hor ul li { 
+ display: inline;
+} 
+ 
+#menu-hor ul li a { 
+ text-decoration: none; 
+ font-size: 25px; 
+ color: #ffffff; 
+ display: inline-block; 
+ padding: 20px; 
+ transition: background .6s; 
+} 
+ 
+#menu-hor ul li a:hover { 
+ padding: 20px; 
+ background-color: #8c52ff; 
+ text-decoration: none; 
+ display: inline-block; 
+}
+
+#menu-hor ul li:first-child a {
+    float: left;
+    background-color: #8c52ff;
+}
+
+#menu-hor ul li:last-child a{
+    float: right;
+    background-color: #8c52ff;
+}
+
+#IDE {
+    background-color: #8c52ff;
+}
+
+.Inicio {
+    max-width: 1000px;
+}
+
+.Inicio h1 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Inicio p {
+    text-align: justify;
+}
+
+.carac {
+    max-width: 1000px;
+}
+
+.carac h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.carac ul {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.carac ul li {
+    margin-top: 5px;
+}
+
+.ides {
+    max-width: 1000px;
+}
+
+.ides h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ides p {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+#vsimg, #suimg, #eclipimg, #androimg {
+    width: 700px;
+    margin-top: 30px;
+}

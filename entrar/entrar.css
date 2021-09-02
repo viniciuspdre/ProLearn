@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body{
+	background-color: #fff;
+}
+
+#login {
+	width: 450px;
+	height: 500px;
+	background-color: #8c52ff;
+	margin-top: 300px;
+	border: 0px;
+	position: relative;
+	border-radius: 20px;
+}
+
+#login form {
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 50px;
+}
+
+#logopreta {
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 190px;
+}
+
+#login h1 {
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 195px;
+	font-size: 35px;
+}
+
+#email{
+	margin-top: 30px;
+	width: 340px;
+	height: 32px;
+	border: none;
+	font-size: 18px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#senha {
+	width: 340px;
+	height: 32px;
+	border: none;
+	font-size: 18px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#enviar {
+	width: 340px;
+	height: 32px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+
+#enviar:hover {
+	background-color: #333;
+	color: #ffffff;
+}
+
+#cadastre {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 250px;
+}
+
+#cadastre h3 {
+	margin-left: 73px;
+	margin-top: 35px;
+}
+#cadastre h3 a {
+	text-decoration: none;
+}
+
+#contas {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 340px;
+}
+
+#contas ul {
+	list-style: none;
+	margin-top: 7px;
+	display: block;
+}
+
+#contas ul li {
+	margin-top: 15px;
+	margin-left: 60px;
+	display: inline-block;
+}
+
+#contas h3 {
+	margin-left: 74px;
+}

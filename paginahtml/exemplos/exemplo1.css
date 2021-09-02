@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+	background-image: linear-gradient(to right, #000000, #333333);
+}
+
+#menu-hor {
+	background-color: #000000;
+}
+
+#menu-hor ul {
+	background-color: #000000;
+	max-width: 900px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu-hor ul li {
+	display: inline;
+}
+
+#menu-hor ul li a {
+	text-decoration: none;
+	font-size: 25px;
+	color: #ffffff;
+	display: inline-block;
+	padding: 20px;
+	transition: background .6s;
+}
+
+#menu-hor ul li a:hover {
+	padding: 20px;
+	background-color: #8c52ff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#menu-hor ul li:last-child a {
+	float: right;
+	background-color: #8c52ff;
+}
+
+#titulos {
+	font-size: 45px;
+	color: #ffffff;
+	padding: 5px;
+}
+
+#codigos {
+	font-size: 25px;
+	border: solid 3px #8c52ff;
+	background-image: linear-gradient(to right,#8c52ff,#a77dd4);
+	margin-left: 20px;
+	border-radius: 5px;
+	padding: 10px;
+	max-width: 500px;
+	max-height: 250;
+}
+
+#tryit {
+	width: 90px;
+	height: 45px;
+	padding: 5px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+#tryit a {
+	text-decoration: none;
+	font-size: 25px;
+	transition: 0.3s;
+}
+
+#html5 {
+	background-color: #8c52ff;
+}
+
+#tryit a:hover {
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff;
+}
